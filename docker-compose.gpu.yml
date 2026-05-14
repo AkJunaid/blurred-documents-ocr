@@ -1,0 +1,6 @@
+services:
+  api:
+    device_requests:
+      - driver: nvidia
+        count: all
+        capabilities: [gpu]

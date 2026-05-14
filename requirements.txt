@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+streamlit
+requests
+reportlab
+groq
+python-dotenv
+torch
+transformers
+tokenizers
+pdf2image
+pillow
+einops
+addict
+easydict
+chromadb
+sentence-transformers

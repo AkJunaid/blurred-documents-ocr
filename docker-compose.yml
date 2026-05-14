@@ -1,0 +1,24 @@
+services:
+  api:
+    build: .
+    image: document-understanding
+    command: uvicorn api:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    volumes:
+      - ./data:/home/junaid/Document-Understanding/data
+
+  ui:
+    build: .
+    image: document-understanding
+    command: streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501
+    ports:
+      - "8501:8501"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    volumes:
+      - ./data:/home/junaid/Document-Understanding/data
+    depends_on:
+      - api

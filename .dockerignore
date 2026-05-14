@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+.git/
+.gitignore
+data/output/
+data/chroma_db/
+data/feedback/
+data/input/
