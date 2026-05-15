@@ -1,0 +1,281 @@
+{
+  "document_title": "Bangladesh Income Tax - Set Off and Carry Forward of Losses",
+  "chapters": [
+    {
+      "section": "16.3.1",
+      "title": "Conditions, Procedures and Limitations of Carrying Forward of Losses",
+      "summary": [
+        {
+          "rule_no": 1,
+          "description": "Losses under business and profession, speculation business, capital gain, and agricultural income can be carried forward for 6 years.",
+          "reference": "Sections 38-41"
+        },
+        {
+          "rule_no": 2,
+          "description": "Business losses excluding speculation business may be carried forward to offset future income from the same source.",
+          "reference": "Section 38"
+        },
+        {
+          "rule_no": 3,
+          "description": "Business loss can be carried forward only if the same business continues in later years.",
+          "reference": "Section 38(a)"
+        },
+        {
+          "rule_no": 4,
+          "description": "Speculation business loss can only be set off against speculation business income.",
+          "reference": "Section 39"
+        },
+        {
+          "rule_no": 5,
+          "description": "Capital loss may be carried forward against future capital gains. Only loss exceeding Tk. 5,000 is eligible.",
+          "reference": "Section 40"
+        },
+        {
+          "rule_no": 6,
+          "description": "Agricultural income losses may be carried forward for 6 years against future agricultural income.",
+          "reference": "Section 41"
+        },
+        {
+          "rule_no": 7,
+          "description": "A successor otherwise than by inheritance cannot carry forward predecessor's business loss.",
+          "reference": "Section 42(4)"
+        }
+      ]
+    },
+    {
+      "section": "16.4",
+      "title": "Set Off and Carry Forward of Business Losses",
+      "reference": "Section 38",
+      "rules": {
+        "business_loss": "Business loss excluding speculation business may be set off against income from other sources except capital gain and house property.",
+        "carry_forward_period": 6,
+        "continuity_requirement": true
+      },
+      "example": {
+        "assessee": "Mr. Peter",
+        "income_years": [
+          {
+            "year": "2015-2016",
+            "salary_income": 105000,
+            "rice_business_income": -125000,
+            "capital_gain": 15000,
+            "carry_forward_loss": 20000
+          },
+          {
+            "year": "2016-2017",
+            "salary_income": 105000,
+            "rice_business_income": 70000,
+            "set_off_previous_loss": 20000,
+            "net_rice_business_income": 50000
+          }
+        ]
+      }
+    },
+    {
+      "section": "16.5",
+      "title": "Set Off and Carry Forward of Speculation Business Loss",
+      "reference": "Section 39",
+      "rules": {
+        "speculation_loss_setoff": "Can only be set off against speculation business income.",
+        "carry_forward_period": 6
+      },
+      "example": {
+        "assessee": "Mr. Peter",
+        "income_years": [
+          {
+            "year": "2015-2016",
+            "salary_income": 105000,
+            "speculation_business_income": 10000,
+            "speculation_business_loss": -30000,
+            "capital_gain": 15000,
+            "carry_forward_loss": 20000,
+            "total_income": 120000
+          },
+          {
+            "year": "2016-2017",
+            "salary_income": 105000,
+            "speculation_business_income": 70000,
+            "set_off_previous_loss": 20000,
+            "net_speculation_income": 50000,
+            "total_income": 155000
+          }
+        ]
+      },
+      "definition_of_speculation_business": {
+        "reference": "Section 2(61)",
+        "definition": "Business where contracts are settled otherwise than by actual delivery.",
+        "exceptions": [
+          "Hedging contracts for raw materials or merchandise",
+          "Stock/share contracts entered to guard against losses",
+          "Forward market or stock exchange arbitrage/jobbing transactions"
+        ]
+      }
+    },
+    {
+      "section": "16.6",
+      "title": "Set Off and Carry Forward of Capital Gains Loss",
+      "reference": "Section 40",
+      "rules": {
+        "capital_loss_setoff": "Can only be set off against income under the head capital gains.",
+        "carry_forward_period": 6,
+        "minimum_loss_requirement": "Loss exceeding Tk. 5,000 only can be carried forward."
+      },
+      "example": {
+        "assessee": "Mr. Peter",
+        "income_years": [
+          {
+            "year": "2015-2016",
+            "rice_business_income": 25000,
+            "agriculture_income": -35000,
+            "carry_forward_agriculture_loss": 10000,
+            "capital_gain": 15000,
+            "total_income": 15000
+          },
+          {
+            "year": "2016-2017",
+            "rice_business_income": 105000,
+            "agriculture_income": 5000,
+            "set_off_previous_agriculture_loss": 5000,
+            "capital_gain_loss": -12000,
+            "capital_loss_carried_forward": 7000,
+            "non_allowable_loss": 5000,
+            "total_income": 105000
+          }
+        ]
+      }
+    },
+    {
+      "section": "16.7",
+      "title": "Set Off and Carry Forward of Agricultural Income Loss",
+      "reference": "Section 41",
+      "rules": {
+        "setoff": "Agricultural loss may be set off against income from other sources except capital gain.",
+        "carry_forward_period": 6,
+        "future_adjustment": "Can only be adjusted against agricultural income in future years."
+      }
+    },
+    {
+      "section": "16.8",
+      "title": "Carry Forward of Losses of Partnership Firm",
+      "reference": "Section 42",
+      "rules": [
+        {
+          "description": "Firm losses can only be set off against firm's own income.",
+          "reference": "42(3a)"
+        },
+        {
+          "description": "Partners cannot set off firm losses against personal income.",
+          "reference": "42(3b)"
+        },
+        {
+          "description": "Retired or deceased partner's share of loss cannot be set off by firm.",
+          "reference": "42(5a)"
+        },
+        {
+          "description": "Partner cannot claim unapportioned loss.",
+          "reference": "42(5b)"
+        }
+      ]
+    },
+    {
+      "section": "16.9",
+      "title": "Carry Forward of Losses of a Joint Stock Company",
+      "rules": [
+        "Loss from one business may be set off against another business.",
+        "Unadjusted loss can be carried forward for 6 years.",
+        "Company must be a resident assessee.",
+        "Foreign and local business losses may be cross-adjusted.",
+        "Losses of old companies cannot be carried forward after amalgamation."
+      ]
+    },
+    {
+      "section": "16.10",
+      "title": "Conditions and Limitations of Carry Forward of Loss",
+      "rules": [
+        "Firm loss cannot be adjusted against partner income.",
+        "Partner cannot carry forward firm's losses.",
+        "Only the original person incurring loss or successor by inheritance can claim business loss adjustment.",
+        "Retired/deceased partner loss restrictions apply.",
+        "Depreciation cannot create or increase business loss.",
+        "Business loss and speculation loss adjustment takes priority over depreciation."
+      ]
+    },
+    {
+      "section": "16.11",
+      "title": "Set Off and Carry Forward of Unabsorbed Depreciation",
+      "reference": "Section 42(6)",
+      "key_points": [
+        "Depreciation cannot create negative business profit.",
+        "Only allowable depreciation up to profit amount may be charged.",
+        "Unabsorbed depreciation can be carried forward indefinitely.",
+        "Business loss and speculation loss are adjusted before unabsorbed depreciation."
+      ],
+      "example": {
+        "companies": [
+          {
+            "company": "X",
+            "profit_before_depreciation": -30000,
+            "depreciation_allowance": 45000,
+            "allowed_depreciation": 0,
+            "taxable_income": -30000,
+            "unabsorbed_depreciation": 45000
+          },
+          {
+            "company": "Y",
+            "profit_before_depreciation": 40000,
+            "depreciation_allowance": 45000,
+            "allowed_depreciation": 40000,
+            "taxable_income": 0,
+            "unabsorbed_depreciation": 5000
+          },
+          {
+            "company": "Z",
+            "profit_before_depreciation": 50000,
+            "depreciation_allowance": 45000,
+            "allowed_depreciation": 45000,
+            "taxable_income": 5000,
+            "unabsorbed_depreciation": 0
+          }
+        ]
+      }
+    },
+    {
+      "section": "16.12",
+      "title": "Differences Between Business Loss and Unabsorbed Depreciation",
+      "differences": [
+        {
+          "point": 1,
+          "business_loss": "Can be carried forward for 6 years.",
+          "unabsorbed_depreciation": "Can be carried forward indefinitely."
+        },
+        {
+          "point": 2,
+          "business_loss": "Restricted adjustment rules.",
+          "unabsorbed_depreciation": "Can be adjusted against income under any head except capital gain and speculative profit."
+        },
+        {
+          "point": 3,
+          "business_loss": "Deducted from subsequent year income.",
+          "unabsorbed_depreciation": "Becomes part of next year's depreciation allowance."
+        }
+      ]
+    },
+    {
+      "section": "Illustration 16-1",
+      "assessee": "Mr. Azad",
+      "income_year": "2016-2017",
+      "details": {
+        "agriculture_income": -30000,
+        "speculation_business_income": 15000,
+        "other_business_income": 10000,
+        "capital_gain": 10000
+      },
+      "solution": {
+        "total_business_income": 25000,
+        "remaining_agriculture_loss": 5000,
+        "carry_forward_agriculture_loss": 5000,
+        "taxable_income": 10000
+      }
+    }
+  ]
+}

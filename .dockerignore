@@ -8,7 +8,5 @@ venv/
 .env
 .git/
 .gitignore
-data/output/
 data/chroma_db/
 data/feedback/
-data/input/
